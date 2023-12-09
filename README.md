@@ -38,7 +38,7 @@ Download IsaacGym Pr4 from the [official site](https://developer.nvidia.com/isaa
 
 ### Policy Evaluation
 
-    $ python main.py <configure_file> --ckpt <checkpoint_dir> --test
+    $ python main.py <configure_file> --meta <pretrained_meta_policy> --ckpt <checkpoint_dir> --test
 
 We provide pretrained policy models in `pretrained` folder. To evaluate a pretrained policy, e.g. please run
 
