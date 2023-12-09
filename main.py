@@ -100,7 +100,7 @@ if __name__ == "__main__":
     model.discriminators = discriminators
 
     model.actor = AdaptNet(model, g_dim=map_dim)
-    if "map" in env.info:
+    if map_dim:
         model.critic.map = MapCNN()
         model.actor.map = MapCNN()
     model.to(device)
