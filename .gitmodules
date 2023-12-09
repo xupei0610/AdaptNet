@@ -1,0 +1,3 @@
+[submodule "composite"]
+	path = composite
+	url = https://github.com/xupei0610/CompositeMotion.git
