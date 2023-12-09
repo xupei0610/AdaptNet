@@ -53,6 +53,14 @@ We provide pretrained policy models in `pretrained` folder. To evaluate a pretra
     $ python main.py config/config_terrain.py \
       --meta pretrained/locomotion_walk --ckpt pretrained/walk_terrain \
       --test
+
+    $ python main.py config/config_walk_jaunty.py \
+      --meta pretrained/locomotion_walk --ckpt pretrained/walk_jaunty \
+      --test
+
+    $ python main.py config/config_walk_stoop.py \
+      --meta pretrained/locomotion_walk --ckpt pretrained/walk_stoop \
+      --test
     
 ## Citation
 
